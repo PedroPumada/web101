@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+p {
+	color: orange;
+}
+
+#peter {
+	color: white;
+}
+
+.dog {
+	color: green;
+	outline: dotted 1px red;
+}
+
+span {
+	outline: dotted 1px blue;
+}
+
+a {
+	color: orange;
+}
+
+.my_div {
+	border: solid 2px purple;
+	margin-top: 10px;
+	padding-top: 20px;
+}
