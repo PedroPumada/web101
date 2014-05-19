@@ -66,10 +66,13 @@ ul.header_nav li {
 	margin-right: 15px; 
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+	-webkit-transition: background-color 1s;
+    transition:background-color 1s;
 }
 
 ul.header_nav li:hover {
 	background-color: #E1AA5F;
+	
 }
 
 ul.footer_nav {
@@ -80,6 +83,8 @@ ul.footer_nav {
 ul.footer_nav li {
 	display: inline;
 	margin-right: 50px;
+	color: white;
+	font-family: Helvetica;
 }
 
 ul.left_nav_list {
@@ -93,24 +98,44 @@ ul.left_nav_list li {
 div.content {
 	width: 79%;
 	height: 300px;
+	color: white;
+	font-family: Helvetica;
 /*	outline: 1px red solid; */
 	float: right;
 	margin-left: 2px;
 	background-color: #0C3252;
 	border-radius: 5px;
+	overflow: scroll;
+}
+
+div.content h2 {
+	font-family: simplifica, Helvetica;
+	padding-left: 10px;
 }
 
 div.content img {
 /*	width: 100%;
 	height: 300px; */
+	margin-left: 5px;
+	margin-top: 5px;
 	display: inline;
+	float: left;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+div .content p {
+	font-family: Helvetica, Arial;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 footer {
 	width: 100%;
 	height: 100px;
-	outline: 1px blue dotted;
+/*	outline: 1px blue dotted; */
 	float: right;
 	margin-top: 10px;
+	background-color: #0C3252;
+	border-radius: 5px;
 }
 
 div.clearfix {
