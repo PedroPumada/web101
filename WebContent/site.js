@@ -20,8 +20,10 @@ function GetClock() {
 	nyear = d.getYear();
 	nhour  = d.getHours();
 	nmin   = d.getMinutes();
-	if(nyear<1000) nyear=nyear+1900;
-
+	if(nyear<1000) {
+		nyear=nyear+1900;
+	}
+	
 	if(nhour ==  0) {
 		ap = " AM";nhour = 12;
 	} else if (nhour <= 11) { 
