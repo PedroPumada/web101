@@ -45,13 +45,14 @@ li:hover {
 
 div.left_nav {
 /*	outline: 1px orange dotted; */
-	background-color: #6563C3;
+	background-color: #6563C3;	
 	border-radius: 5px;
 	width: 20%;
 	height: 300px;
 	float: left; 
 	margin-right: 3px;
 }
+
 ul.header_nav {
 	margin-top: 17px;
 	display: block;
@@ -77,14 +78,21 @@ ul.header_nav li:hover {
 
 ul.footer_nav {
 	display: block;
-	padding-top: 25px;	
+	padding-top: 25px;
+	text-align: center;	
 }
 
 ul.footer_nav li {
 	display: inline;
-	margin-right: 50px;
+	margin-right: 40px;
 	color: white;
 	font-family: Helvetica;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+ul.footer_nav li:hover {
+	background-color: #1E845B;
 }
 
 ul.left_nav_list {
@@ -92,7 +100,15 @@ ul.left_nav_list {
 }
 
 ul.left_nav_list li {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	color: white;
+	font-family: simplifica, Helvetica;
+	font-size: 42px;
+	
+}
+
+ul.left_nav_list li:hover {
+	color: #E1AA5F;
 }
 
 div.content {
@@ -140,4 +156,12 @@ footer {
 
 div.clearfix {
 	clear: both;
+}
+
+#clockbox {
+	color: white;
+	text-align: center;
+	font-family: simplifica, Helvetica;
+	font-size: 24px;
+	padding-bottom: 20px;
 }
