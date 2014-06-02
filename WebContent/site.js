@@ -50,7 +50,7 @@ window.onload=GetClock;
 $(document).ready(function() {
 	
 	// when we click on dog, another one appears
-	$('#puppy').click(function() {
+	$('#puppy').on('click', function() {
 		if ($('#puppy').attr('src', 'puppy.jpg')) {
 			$('#puppy').attr('src', 'puppy-boston.jpg');
 		} else {
